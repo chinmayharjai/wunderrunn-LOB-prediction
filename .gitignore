@@ -1,0 +1,45 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+.venv_challenge/
+*/.venv/
+*/.venv_challenge/
+*/venv/
+
+# === Large Data Files (too big for GitHub) ===
+*.parquet
+*.csv
+
+# === Jupyter Checkpoints ===
+.ipynb_checkpoints/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Zip archives (submissions are reproducible from code) ===
+*.zip
+
+# === MACOSX artifact folders ===
+__MACOSX/
+
+# === IDE ===
+.idea/
+.vscode/
+*.code-workspace
+
+# === Sensitive config files (API keys, tokens) ===
+.claude/
+.claude-code-router/
+**/.claude/
+**/.claude-code-router/
+config.json
